@@ -19,8 +19,8 @@
         <tr>
           <th scope="col">Task</th>
           <th scope="col" style="width: 120px">Status</th>
-          <th scope="col" class="text-center">#</th>
-          <th scope="col" class="text-center">#</th>
+          <th scope="col" class="text-center">Trasch</th>
+          <th scope="col" class="text-center">Edit</th>
         </tr>
       </thead>
       <tbody>
@@ -77,11 +77,11 @@ export default {
           status: "to-do",
         },
         {
-          name: "Eat 1kh chl",
+          name: "Eat 1kh apple",
           status: "in-progress",
         },
         {
-          name: "Create YouTube video.",
+          name: "Create Vue App",
           status: "finished",
         },
       ],
