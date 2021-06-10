@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <h2 class="text-center mt-5">My Vue Todo App</h2>
+
+  <div class="container App">
+    <h2 class="text-center mt-5 text-light">My Vue Todo App</h2>
     <!-- Input -->
     <div class="d-flex">
       <input
@@ -14,11 +15,11 @@
       </button>
     </div>
     <!-- Task Table -->
-    <table class="table table-bordered mt-5">
+    <table class="table table-bordered mt-5 text-light">
       <thead>
         <tr>
           <th scope="col">Task</th>
-          <th scope="col" style="width: 120px">Status</th>
+          <th scope="col">Status</th>
           <th scope="col" class="text-center">Trasch</th>
           <th scope="col" class="text-center">Edit</th>
         </tr>
@@ -154,5 +155,18 @@ export default {
 }
 .line-through {
   text-decoration: line-through;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
 }
 </style>
