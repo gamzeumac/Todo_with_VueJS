@@ -163,7 +163,7 @@ export default {
   justify-content: center;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background: #3e445e;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
